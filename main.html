@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="shortcut icon" href="Site.png" type="image/png">
+    <script type="text/javascript" src="main-script.js"></script>
+   
+    <title>Main</title>
+</head>
+<body>
+    <header>
+        <div class="container-1">
+            <img class="logo" src="Logo.jpg">
+            <div><a href="categories.html">Категории</a></div>
+            <div><a class="menu2" href="top.html">ТОП-50</a></div>
+            <div><a class="menu3" href="film.html">Случайный</a></div>
+            <div><a class="menu4" href="new.html">Новости</a></div>
+            <input class="search__input" type="text" placeholder="Поиск">
+
+
+            <div><a  class="profil_ikon" href="#" id="profil_ikon"><img class="profil" src="profil.png"></a></div>
+
+
+            <div class="open_profil" id="open_profil">
+                <div class="open_profil_container" id="open_profil_container">
+                    <div class="open_profil_body" id="open_profil_body">
+
+
+                        <p>Регистрация</p>
+                        <form>
+                            <div>
+                                Имя<br>
+                                <input type="text" name="name" required="required">
+                            </div>                   
+                            <div>
+                                E-mail<br>
+                                <input type="email" name="email" required="required">
+                            </div>
+                            <div>
+                                Телефон<br>
+                                <input type="tel" name="tel" required="required" placeholder="+375 29 777-77-77" pattern="\+?[0-9\s\-\(\)]+">
+                            </div>
+                            
+                            <div>
+                                Дата рождения<br>
+                                <input type="datetime-local" name="date" required="required">
+                            </div>
+                            <div class="div-button">
+                                <button class="button-2" type="submit" name="submit_btn" value="main_button">Готово</button>
+                            </div>
+                        </form>
+                        <div class="open_profil_close" id="open_profil_close">&#10006</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            </div>
+        <div class="line-menu"></div>
+    </header>
+
+
+
+    <div class="container-2">
+        <img class="banner" src="Banner1.png" alt="banner">
+        <div class="circles">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle2"></div>
+        </div>
+    </div>
+    <div class="container-3">
+        <p>Новости</p>
+        <div class="line-new-1"></div>
+    </div>
+    <div class="container-4">
+        <div class="block4">
+        <div class="new-1">
+            <img class="new-img-1" src="New1.png" alt="new1">
+            <div class="text1">
+                <p class="text-new-1">Стартовали съёмки четвёртого сезона «Наследников»</p>
+                <p class="date-1">28.06.2022</p>
+            </div>
+        </div>
+        <div class="new-1">
+            <img class="new-img-1" src="New2.png" alt="new2">
+            <div class="text1">
+                <p class="text-new-1">Аня Тейлор-Джой спровоцировала слухи о свадьбе </p>
+                <p class="date-1">27.06.2022</p>
+            </div>
+        </div>
+        <div class="new-3">
+            <img class="new-img-3" src="New3.png" alt="new3">
+            <div class="text3">
+                <p class="text-new-3">Харрисон Форд может завершить карьеру после «Индианы Джонса 5»</p>
+                <p class="date-3">25.06.2022</p>
+            </div>
+        </div>
+    
+    
+        <div class="new-4">
+            <img src="New4.png" alt="new4">
+            <div class="text4">
+                <p class="text-new-4">Кристиан Бэйл рассказал, что ещё не смотрел «Бэтмена»</p>
+                <p class="date-4">25.06.2022</p>
+            </div>
+        </div>
+            <div class="new-5">
+                <div class="text5">
+                    <p class="text-new-5">8 новых фильмов и сериалов месяца, которые уже можно посмотреть на Netflix</p>
+                    <p class="date-5">27.06.2022</p>
+                </div>
+                <img src="new5.png" alt="new4">
+            </div>
+        </div>
+       
+    </div>
+    <div class="eche"><a href="new.html" class="button-1">Ещё</a></div>
+    
+    <div class="container-6">
+        <p>Новые фильмы</p>
+        <div class="line-new-2"></div>
+    </div>
+    <div class="container-7">
+        <div class="film">
+            <img src="Poster.png" alt="film1" onmouseover="HideRevealFirst( )" onload="HideRevealFirst()">
+            <p class="text-film">Криминальное чтиво</p>
+        </div>
+        <div class="film" >
+            <img src="Poster2.png" alt="film2" onmouseover="HideRevealSecond()">
+            <p class="text-film">1+1</p>
+        </div>
+        <div class="film">
+            <img src="Poster3.png" alt="film3"  onmouseover="HideRevealThird()">
+            <p class="text-film">Унесённые ветром</p>
+        </div>
+        <div class="film">
+            <img src="Poster4.png" alt="film4"  onmouseover="HideRevealFourth()">
+            <p class="text-film">Человек на луне</p>
+        </div>
+        <div class="film">
+            <img src="Poster5.png" alt="film5"  onmouseover="HideRevealFifth()">
+            <p class="text-film">Зверополис</p>
+        </div>
+        <div class="film">
+            <img src="Poster6.png" alt="film6" onmouseover="HideRevealSixth()">
+            <p class="text-film">Гладиатор</p>
+        </div>
+</div>
+    <div  id="more1" class="container-8">
+        <div class="more">
+            <div class="description">
+            <h1>Криминальное чтиво</h1>
+            <p class="text-film-more">  Черная комедия Квентина Тарантино рассказывает о криминальных буднях двух бандитов – Винсента Вега (Джон Траволта) и Джулса Винфилда (Сэмюэль Л. Джексон). 
+            <br>Они проводят время в философских беседах в перерыве между разборками и решением проблем с должниками.</p>
+                 <a href="#" class="button">Подробнее</a>
+                </div>
+                 <img src="More.png" alt="more">
+        </div>
+    </div>
+    <div id="more2" class="container-8" >
+        <div class="more">
+            <div class="description">
+            <h1>1+1. Неприкасаемые</h1>
+            <p class="text-film-more">  Пострадав в результате несчастного случая, богатый аристократ Филипп нанимает в помощники человека, который менее всего подходит для этой работы, – молодого жителя предместья Дрисса, только что освободившегося из тюрьмы. Несмотря на то, что Филипп прикован к инвалидному креслу, Дриссу удается привнести в размеренную жизнь аристократа дух приключений. </p>
+            <a href="#" class="button">Подробнее</a>
+            </div>
+            <img src="more2.png" alt="more">
+        </div>
+    </div>
+    <div  id="more3" class="container-8">
+        <div class="more">
+            <div class="description">
+            <h1>Унесенные ветром</h1>
+            <p class="text-film-more">  Могучие ветры Гражданской войны в один миг уносят беззаботную юность южанки Скарлетт О`Хара, когда привычный шум балов сменяется грохотом канонад на подступах к родному дому. Для молодой женщины, вынужденной бороться за новую жизнь на разоренной земле, испытания и лишения становятся шансом переосмыслить идеалы, обрести веру в себя и найти настоящую любовь.</p>
+            <a href="#" class="button">Подробнее</a>
+            </div>
+            <img src="more3.png" alt="more">
+        </div>
+    </div>
+    <div id="more4" class="container-8" >
+        <div class="more">
+            <div class="description">
+            <h1>Человек на луне</h1>
+            <p class="text-film-more">  Судьба любит смельчаков, а Нил Армстронг однозначно принадлежит к их числу. Весь мир знает его имя, но мало кому известно, какой ценой астронавту дался маленький шаг, ставший огромным скачком для всего человечества.</p>
+            <a href="#" class="button">Подробнее</a>
+            </div>
+            <img src="more4.png" alt="more">
+        </div>
+    </div>
+    <div id="more5" class="container-8" >
+        <div class="more">
+            <div class="description">
+            <h1>Зверополис</h1>
+            <p class="text-film-more">  Добро пожаловать в Зверополис – современный город, населенный самыми разными животными, от огромных слонов до крошечных мышек. Зверополис разделен на районы, полностью повторяющие естественную среду обитания разных жителей – здесь есть и элитный район Площадь Сахары и неприветливый Тундратаун.</p>
+            <a href="#" class="button">Подробнее</a>
+            </div>
+            <img src="more5.png" alt="more">
+        </div>
+    </div>
+    <div id="more6" class="container-8" >
+        <div class="more">
+            <div class="description">
+            <h1>Гладиатор</h1>
+            <p class="text-film-more">  В великой Римской империи не было военачальника, равного генералу Максимусу. Непобедимые легионы, которыми командовал этот благородный воин, боготворили его и могли последовать за ним даже в ад.
+                Но случилось так, что отважный Максимус, готовый сразиться с любым противником в честном бою, оказался бессилен против вероломных придворных интриг.</p>
+                <a href="#" class="button">Подробнее</a>
+            </div>
+                <img src="more6.png" alt="more">
+        </div>
+    </div>
+    <div class="container-85">
+        <div class="line-new-3"></div>
+    </div>
+    <div class="container-9">
+        <div class="footer-1">
+        <a href="#" class="footer-text">Вакансии</a>
+        <a href="#" class="footer-text">Соглашение</a>
+        <a href="#" class="footer-text">Предложения</a>
+        <a href="#" class="footer-text">Реклама</a>
+        <a href="#" class="footer-text">Служба поддержки</a>
+        </div>
+    </div>
+    <div class="container-10">
+       
+        <img src="Footer1.png" alt="footer1">
+        <img src="Footer2.png" alt="footer2">
+     
+    </div>
+    <script src="profil.js"></script>
+</body>
+</html>

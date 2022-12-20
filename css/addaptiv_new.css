@@ -1,0 +1,38 @@
+
+@media screen and (max-width:1062px) 
+{
+    .new-img-1
+    {
+    width: 24.6vw;
+    }
+    .text1
+    {
+       
+        width: 80%;
+    }
+    .text-new-1, .text-new-5
+    {
+        font-size: 2vw;
+    }
+    .new-1, .new-5
+    {
+        
+        width: 31.7%;
+    }
+    .new-3
+    {
+        width: 65%;
+    }
+    .new-img-1
+    {
+    width: 24.6vw;
+    }
+    .text-new-3
+    {
+        font-size: 2vw;
+    }
+    .button-1
+    {
+        font-size: 2vw;
+    }
+}

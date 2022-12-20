@@ -1,0 +1,72 @@
+.menu3
+{
+    color: #998FD7;
+}
+.block1
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.block_osnova
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15%;
+    width: 73%;
+   
+}
+.poster_rating
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.poster_film{
+    width: 70%;
+}
+.all_rating{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.name_film
+{
+    flex-grow: 2;
+}
+.watch
+{
+   display: flex;
+   flex-direction: row;
+    width: 32%;
+}
+.button-1 {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin-top:1% ;
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+    border-radius: 45px;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    background: #6D59E6;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .button-1:hover {
+    background: #ffffff;
+    box-shadow: 0 10px 10px rgba(172, 172, 172, 0.245);
+    color: #6D59E6;
+    transform: translateY(-7px);
+  }
+  .watch_ikonka
+  {
+    padding-left: 10%;
+    padding-top: 4%;
+  }
