@@ -1,5 +1,48 @@
+@media (max-width: 1437px)
+{
+    .line-new-1
+    {
+        width: 44em;
+    }
+    .container-3 p 
+    {
+        font-size: 24px;
+    }
+    .line-new-2
+    {
+        width: 40em;
+    }
+    .container-6 p 
+    {
+        font-size: 24px;
+    }
+    .more
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .text-film-more
+    {
+        width: 2vw;
+    }
+}
+
 @media (max-width: 1116px)
 {
+    .search__input 
+    {
+        font-size: 2vw;
+    }
+    .line-new-1
+    {
+        width: 64%;
+    }
+    .container-3 p 
+    {
+        font-size: 2.5vw;
+    }
     .navbar, .navbar-wrap
     {
         height: 6vw;
@@ -100,6 +143,40 @@
     }
     
 }
+@media (max-width: 891px)
+{
+    .line-new-1
+    {
+        width: 83%;
+    }
+    .line-new-2
+    {
+        width: 73%;
+    }
+    .container-6 p 
+    {
+        font-size: 3vw;
+    };
+    .container-3 p 
+    {
+        font-size: 3vw;
+    }
+    .container-7
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .film
+    {
+        width: 15em;
+    }
+    .text-film
+    {
+        font-size: 3vw;
+        padding-bottom: 5%;
+    }
+    
+} 
 
 
 
@@ -131,6 +208,7 @@
     }
     .block3
     {
+        display: flex;
         justify-content: center;
         width: 100%; 
     }
@@ -191,6 +269,76 @@
         font-size: 2vw;
     }
 }
+@media screen and (max-width:891px) 
+{
+    .block4
+    {
+        width: 100%;
+    }
+    .new-img-1
+    {
+        width: 31.5vw;
+    }
+    .new-4
+    {
+        width: 98%;
+    }
+    .new-img-4
+    {
+        width: 70vw;
+    }
+}
+@media screen and (max-width:691px) 
+{
+    .new-4 img
+    {
+        width: 60vw;
+    }
+    .text-new-4
+    {
+        font-size: 3vw;
+    }
+    .date-4
+    {
+        font-size: 2vw;
+    }
+    .date-1, .date-5
+    {
+        font-size: 2vw;
+    }
+    .new-img-3
+    {
+        width: 35vw;
+    }
+    .text-new-3
+    {
+        font-size: 2.8vw;
+    }
+    .date-3
+    {
+        font-size: 2vw;
+    }
+    .text-new-1, .text-new-5
+    {
+        font-size: 2.6vw;
+    }
+    .text5
+    {
+        width: 25vw;
+    }
+}
+@media screen and (max-width:446px) 
+{
+    .new-img-3
+    {
+        width: 35vw;
+    }
+
+.new-4 img
+    {
+        width: 50vw;
+    }
+}
 
 
 
@@ -205,3 +353,24 @@
     padding: 2%;
 }
 }
+@media screen and (max-width:1384px) 
+{
+    .second_block
+    {
+        width: 100%;
+        justify-content: center;
+        padding: 0 10% 0 10%;
+    }
+    .second_block_two
+    {
+        width: 100%;
+        justify-content: center;
+    }
+    .third_block
+{
+    width: 100%;
+    padding: 0 5% 0 5%;
+ 
+}
+}
+

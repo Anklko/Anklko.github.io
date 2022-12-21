@@ -15,77 +15,166 @@
 </head>
 <body>
     <header>
-        <div class="container-1">
-            <img class="logo" src="Logo.jpg">
-            <div><a href="categories.html">Категории</a></div>
-            <div><a class="menu2" href="top.html">ТОП-50</a></div>
-            <div><a class="menu3" href="film.html">Случайный</a></div>
-            <div><a class="menu4" href="new.html">Новости</a></div>
-            <input class="search__input" type="text" placeholder="Поиск">
-
-
-            <div><a  class="profil_ikon" href="#" id="profil_ikon"><img class="profil" src="profil.png"></a></div>
-
-
-            <div class="open_profil" id="open_profil">
-                <div class="open_profil_container" id="open_profil_container">
-                    <div class="open_profil_body" id="open_profil_body">
-
-
-                        <p>Регистрация</p>
-                        <form>
-                            <div>
-                                Имя<br>
-                                <input type="text" name="name" required="required">
-                            </div>                   
-                            <div>
-                                E-mail<br>
-                                <input type="email" name="email" required="required">
-                            </div>
-                            <div>
-                                Телефон<br>
-                                <input type="tel" name="tel" required="required" placeholder="+375 29 777-77-77" pattern="\+?[0-9\s\-\(\)]+">
-                            </div>
-                            
-                            <div>
-                                Дата рождения<br>
-                                <input type="datetime-local" name="date" required="required">
-                            </div>
-                            <div class="div-button">
-                                <button type="submit" name="submit_btn" value="main_button">Готово</button>
-                            </div>
-                        </form>
-                        <div class="open_profil_close" id="open_profil_close">&#10006</div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-wrap">    
+                    <div class="hamb">
+                        <div class="hamb-field" id="hamb">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                     </div>
+                    <div class="logo">
+                        <a href="index.html"><img src="img/Logo.jpg" alt="Логотип"></a>
+                    </div>
+                    <ul class="menu" id="menu">
+                        
+                        <li><a class="menu1" href="categories.html">Категории</a></li>
+                        <li><a class="menu2" href="top.html">ТОП-50</a></li>
+                        <li><a class="menu3" href="film.html">Случайный</a></li>
+                        <li><a class="menu4" href="new.html">Новости</a></li>
+                        
+                    </ul> 
+                   
+                    <div class="search">
+                        <input class="search__input" type="text" placeholder="Поиск">
+                    <div><a  class="profil_ikon" href="#" id="profil_ikon"><img class="profil" src="img/profil.png"></a></div></div>
+                    <div class="open_profil" id="open_profil">
+            <div class="open_profil_container" id="open_profil_container">
+                <div class="open_profil_body" id="open_profil_body">
+
+
+                    <p>Регистрация</p>
+                    <form>
+                        <div>
+                            Имя<br>
+                            <input type="text" name="name" required="required">
+                        </div>                   
+                        <div>
+                            E-mail<br>
+                            <input type="email" name="email" required="required">
+                        </div>
+                        <div>
+                            Телефон<br>
+                            <input type="tel" name="tel" required="required" placeholder="+375 29 777-77-77" pattern="\+?[0-9\s\-\(\)]+">
+                        </div>
+                        
+                        <div>
+                            Дата рождения<br>
+                            <input type="datetime-local" name="date" required="required">
+                        </div>
+                        <div class="div-button">
+                            <button class="button-2" type="submit" name="submit_btn" value="main_button">Готово</button>
+                        </div>
+                    </form>
+                    <div class="open_profil_close" id="open_profil_close">&#10006</div>
                 </div>
             </div>
-        </div>
-
             </div>
+                </div>
+            </div>
+        </nav>
+        <div class="popupBurger" id="popupBurger"></div>
+
+        
         <div class="line-menu"></div>
     </header>
    
     
-    <div class="block1">
-        <div class="block_osnova">
+    
+    
+    <div class="general_block">
+        <div class="second_block">
+
             <div class="poster_rating">
-                <img class="poster_film" src="poster_film.png">
+                <img class="poster_film" src="img/poster_film.png">
                 <div class="all_rating">
-                    <img class="rating" src="rating.png">
+                    <img class="rating" src="img/rating.png">
                     <p>IMDb: 8.50
                     <br>836 523 оценки</p>
                 </div>
             </div>
             <div class="name_film">
-                <h1>1+1.Неприкасаемые</h1>
-                <br><p>Intouchables</p>
-                <div class="watch"><a href="#" class="button-1">Смотреть<img class="watch_ikonka" src="watch.png"></a></div>
+                <h1>1+1. Неприкасаемые
+                <br>Intouchables</h1>
+                <div class="watch"><a href="#" class="button-3">Смотреть</a></div>
             </div>
         </div>
     </div>
 
-    
-   
+
+
+    <div class="general_block">
+        <div class="second_block_two">
+            <div class="third_block">
+        <h1 id="description2">Описание</h1>
+    <div class="description_block">
+                <div class="descriptions">
+                    <p class="criterion">Жанр</p>
+                    <p class="parametr">Драма Комедия</p>
+                </div>
+                <div class="descriptions_line"></div>
+                <div class="descriptions">
+                    <p class="criterion">Страна</p>
+                    <p class="parametr">Франция</p>
+                </div>
+                <div class="descriptions_line"></div>
+                <div class="descriptions">
+                    <p class="criterion">Год</p>
+                    <p class="parametr">2011</p>
+                </div>
+                <div class="descriptions_line"></div>
+                <div class="descriptions">
+                    <p class="criterion">Режиссёр</p>
+                    <p class="parametr">Оливье Накаш, Эрик Толедано</p>
+                </div>
+                <div class="descriptions_line"></div>
+    </div>
+<div class="inform_film">
+    <h1>О фильме</h1>
+    <p>Черная комедия Квентина Тарантино рассказывает о криминальных буднях двух бандитов – Винсента Вега (Джон Траволта) и Джулса Винфилда (Сэмюэль Л. Джексон). Они проводят время в философских беседах в перерыве между разборками и "решением проблем" с должниками своего криминального босса Марселласа Уоллеса. Параллельно разворачивается три истории.</p>
+</div>
+<div class="video">
+    <img class="film_trailer" src="img/film_trailer.png">
+    <img src="img/film_watch.png">
+</div>
+
+
+
+
+    <h1>Кадры</h1>
+    <div class="cadrs">
+    <img src="img/cadr1.png">
+    <img src="img/cadr2.png">
+    <img src="img/cadr3.png">
+    </div>
+
+
+    <h1>Актёры</h1>
+    <div class="acters_block">
+        <div class="acters_block_name">
+            <img  src="img/acter1.png">
+            <p>Омар Си<br>Дрисс</p>
+        </div>
+        <div class="acters_block_name">
+            <img  src="img/acter2.png">
+            <p>Франс Клюзе<br>Филипп</p>
+        </div>
+        <div class="acters_block_name">
+            <img  src="img/acter3.png">
+            <p>Одри Флеро<br>Магали</p>
+        </div>
+        <div class="acters_block_name">
+            <img  src="img/acter4.png">
+            <p>Анн Ле Ни<br>Ивонна</p>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+
 
 
 
@@ -104,10 +193,11 @@
     </div>
     <div class="container-10">
        
-        <img src="Footer1.png" alt="footer1">
-        <img src="Footer2.png" alt="footer2">
+        <img src="img/Footer1.png" alt="footer1">
+        <img src="img/Footer2.png" alt="footer2">
      
     </div>
+</div>
     <script src="profil.js"></script>
 </body>
 </html>
