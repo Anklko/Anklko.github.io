@@ -7,13 +7,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+
 }
 select
 {
     border-radius: 20px;
-    height: 40px;
-    flex-basis: 15.5%;
+    padding: 1% 0 1% 0;
+    width: 18.8vw;
     margin: 2%;
     color: #ffffff;
     background-color: #232222;
@@ -50,11 +50,17 @@ select
     padding: 5% 0 7% 0;
     margin: 0;
 }
+.block2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
 .block3
 {
     display: flex;
     justify-content: center;
-    /* background-color: aquamarine; */
     width: 78%;
     flex-wrap: wrap;
 }

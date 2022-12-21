@@ -2,74 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="new.css">
-    <link rel="stylesheet" href="addaptiv_new.css">
-    <link rel="shortcut icon" href="Site.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/addaptiv.css">
+    <link rel="shortcut icon" href="img/Site.png" type="image/png">
     <title>New</title>
 </head>
 <body>
     <header>
-        <div class="container-1">
-            <img class="logo" src="Logo.jpg">
-            <div><a href="categories.html">Категории</a></div>
-            <div><a class="menu2" href="top.html">ТОП-50</a></div>
-            <div><a class="menu3" href="film.html">Случайный</a></div>
-            <div><a class="menu4" href="new.html">Новости</a></div>
-            <input class="search__input" type="text" placeholder="Поиск">
-
-
-            <div><a  class="profil_ikon" href="#" id="profil_ikon"><img class="profil" src="profil.png"></a></div>
-
-
-            <div class="open_profil" id="open_profil">
-                <div class="open_profil_container" id="open_profil_container">
-                    <div class="open_profil_body" id="open_profil_body">
-
-
-                        <p>Регистрация</p>
-                        <form>
-                            <div>
-                                Имя<br>
-                                <input type="text" name="name" required="required">
-                            </div>                   
-                            <div>
-                                E-mail<br>
-                                <input type="email" name="email" required="required">
-                            </div>
-                            <div>
-                                Телефон<br>
-                                <input type="tel" name="tel" required="required" placeholder="+375 29 777-77-77" pattern="\+?[0-9\s\-\(\)]+">
-                            </div>
-                            
-                            <div>
-                                Дата рождения<br>
-                                <input type="datetime-local" name="date" required="required">
-                            </div>
-                            <div class="div-button">
-                                <button type="submit" name="submit_btn" value="main_button">Готово</button>
-                            </div>
-                        </form>
-                        <div class="open_profil_close" id="open_profil_close">&#10006</div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-wrap">    
+                    <div class="hamb">
+                        <div class="hamb-field" id="hamb">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                     </div>
+                    <div class="logo">
+                        <a href="index.html"><img src="img/Logo.jpg" alt="Логотип"></a>
+                    </div>
+                    <ul class="menu" id="menu">
+                        
+                        <li><a href="categories.html">Категории</a></li>
+                        <li><a href="top.html">ТОП-50</a></li>
+                        <li><a href="film.html">Случайный</a></li>
+                        <li><a href="new.html">Новости</a></li>
+                        
+                    </ul> 
+                   
+                    <input class="search__input" type="text" placeholder="Поиск">
+                    <div><a  class="profil_ikon" href="#" id="profil_ikon"><img class="profil" src="img/profil.png"></a></div>
+                    <div class="open_profil" id="open_profil">
+            <div class="open_profil_container" id="open_profil_container">
+                <div class="open_profil_body" id="open_profil_body">
+
+
+                    <p>Регистрация</p>
+                    <form>
+                        <div>
+                            Имя<br>
+                            <input type="text" name="name" required="required">
+                        </div>                   
+                        <div>
+                            E-mail<br>
+                            <input type="email" name="email" required="required">
+                        </div>
+                        <div>
+                            Телефон<br>
+                            <input type="tel" name="tel" required="required" placeholder="+375 29 777-77-77" pattern="\+?[0-9\s\-\(\)]+">
+                        </div>
+                        
+                        <div>
+                            Дата рождения<br>
+                            <input type="datetime-local" name="date" required="required">
+                        </div>
+                        <div class="div-button">
+                            <button class="button-2" type="submit" name="submit_btn" value="main_button">Готово</button>
+                        </div>
+                    </form>
+                    <div class="open_profil_close" id="open_profil_close">&#10006</div>
                 </div>
             </div>
-        </div>
-
             </div>
+                </div>
+            </div>
+        </nav>
+        <div class="popupBurger" id="popupBurger"></div>
+
+        
         <div class="line-menu"></div>
     </header>
+
+
+
     <div class="container-2">
         <div class="block4">
         <div class="new-4">
-            <img src="New4.png" alt="new4">
+            <img src="img/New4.png" alt="new4">
             <div class="text4">
                 <p class="text-new-4">Кристиан Бэйл рассказал, что ещё не смотрел «Бэтмена»</p>
                 <p class="date-4">25.06.2022</p>
             </div>
         </div>
         <div class="new-1">
-            <img class="new-img-1" src="New2.png" alt="new2">
+            <img class="new-img-1" src="img/New2.png" alt="new2">
             <div class="text1">
                 <p class="text-new-1">Аня Тейлор-Джой спровоцировала слухи о свадьбе </p>
                 <p class="date-1">27.06.2022</p>
@@ -78,21 +97,21 @@
     
    
         <div class="new-1">
-            <img class="new-img-1" src="New2.png" alt="new2">
+            <img class="new-img-1" src="img/New2.png" alt="new2">
             <div class="text1">
                 <p class="text-new-1">Аня Тейлор-Джой спровоцировала слухи о свадьбе </p>
                 <p class="date-1">27.06.2022</p>
             </div>
         </div>
         <div class="new-1">
-        <img class="new-img-1" src="New6.png" alt="new1">
+        <img class="new-img-1" src="img/New6.png" alt="new1">
             <div class="text1">
                 <p class="text-new-1">Тейлор выпустила саундтрек к драме «Там, где поют»</p>
                 <p class="date-1">26.06.2022</p>
             </div>
         </div>
         <div class="new-1">
-            <img class="new-img-1" src="New1.png" alt="new1">
+            <img class="new-img-1" src="img/New1.png" alt="new1">
                 <div class="text1">
                     <p class="text-new-1">Стартовали съёмки четвёртого сезона «Наследников»</p>
                     <p class="date-1">28.06.2022</p>
@@ -103,26 +122,26 @@
                 <p class="text-new-5">8 новых фильмов и сериалов месяца, которые уже можно посмотреть на Netflix</p>
                 <p class="date-5">27.06.2022</p>
             </div>
-            <img src="new5.png" alt="new4">
+            <img src="img/new5.png" alt="new4">
         </div>
     
 
         <div class="new-1">
-            <img class="new-img-1" src="New6.png" alt="new1">
+            <img class="new-img-1" src="img/New6.png" alt="new1">
                 <div class="text1">
                     <p class="text-new-1">Тейлор Свифт выпустила песню «Там, где поют»</p>
                     <p class="date-1">26.06.2022</p>
                 </div>
         </div>
         <div class="new-3">
-            <img class="new-img-3" src="New3.png" alt="new3">
+            <img class="new-img-3" src="img/New3.png" alt="new3">
             <div class="text3">
                 <p class="text-new-3">Харрисон Форд может завершить карьеру после «Индианы Джонса 5»</p>
                 <p class="date-3">25.06.2022</p>
             </div>
         </div>
         <div class="new-1">
-            <img class="new-img-1" src="New1.png" alt="new1">
+            <img class="new-img-1" src="img/New1.png" alt="new1">
             <div class="text1">
                 <p class="text-new-1">Стартовали съёмки четвёртого сезона «Наследников»</p>
                 <p class="date-1">28.06.2022</p>
@@ -136,32 +155,32 @@
                 <p class="text-new-4">В Японии хотят сохранить лес из мультфильма «Мой сосед Тоторо»</p>
                 <p class="date-4">26.06.2022</p>
             </div>
-            <img src="New7.png" alt="new4">
+            <img src="img/New7.png" alt="new4">
         </div>
         <div class="new-5">
             <div class="text5">
                 <p class="text-new-5">8 новых фильмов и сериалов месяца, которые уже можно посмотреть на Netflix</p>
                 <p class="date-5">27.06.2022</p>
             </div>
-            <img src="new5.png" alt="new4">
+            <img src="img/new5.png" alt="new4">
         </div>
         
         <div class="new-1">
-            <img class="new-img-1" src="New1.png" alt="new1">
+            <img class="new-img-1" src="img/New1.png" alt="new1">
                 <div class="text1">
                     <p class="text-new-1">Стартовали съёмки четвёртого сезона «Наследников»</p>
                     <p class="date-1">28.06.2022</p>
                 </div>
         </div>
         <div class="new-1">
-            <img class="new-img-1" src="New2.png" alt="new2">
+            <img class="new-img-1" src="img/New2.png" alt="new2">
             <div class="text1">
                 <p class="text-new-1">Аня Тейлор-Джой спровоцировала слухи о свадьбе </p>
                 <p class="date-1">27.06.2022</p>
             </div>
         </div>
         <div class="new-1">
-            <img class="new-img-1" src="New6.png" alt="new1">
+            <img class="new-img-1" src="img/New6.png" alt="new1">
                 <div class="text1">
                     <p class="text-new-1">Тейлор Свифт выпустила саундтрек к драме «Там, где раки поют»</p>
                     <p class="date-1">26.06.2022</p>
@@ -171,14 +190,14 @@
 
         
         <div class="new-1">
-            <img class="new-img-1" src="New1.png" alt="new1">
+            <img class="new-img-1" src="img/New1.png" alt="new1">
                 <div class="text1">
                     <p class="text-new-1">Стартовали съёмки четвёртого сезона «Наследников»</p>
                     <p class="date-1">28.06.2022</p>
                 </div>
         </div>
         <div class="new-1">
-            <img class="new-img-1" src="New2.png" alt="new2">
+            <img class="new-img-1" src="img/New2.png" alt="new2">
             <div class="text1">
                 <p class="text-new-1">Аня Тейлор-Джой спровоцировала слухи о свадьбе </p>
                 <p class="date-1">27.06.2022</p>
@@ -189,14 +208,14 @@
                 <p class="text-new-3">Харрисон Форд может завершить карьеру после «Индианы Джонса 5»</p>
                 <p class="date-3">25.06.2022</p>
             </div>
-            <img class="new-img-3" src="New3.png" alt="new3">
+            <img class="new-img-3" src="img/New3.png" alt="new3">
         </div>
         <div class="new-5">
             <div class="text5">
                 <p class="text-new-5">8 новых фильмов и сериалов месяца, которые уже можно посмотреть на Netflix</p>
                 <p class="date-5">27.06.2022</p>
             </div>
-            <img src="new5.png" alt="new4">
+            <img src="img/new5.png" alt="new4">
         </div>
     </div>
     </div>
@@ -224,11 +243,12 @@
     </div>
     <div class="container-10">
         <div class="footer-2">
-        <img src="Footer1.png" alt="footer1">
-        <img src="Footer2.png" alt="footer2">
+        <img src="img/Footer1.png" alt="footer1">
+        <img src="img/Footer2.png" alt="footer2">
         </div>
        
     </div>
-    <script src="profil.js"></script>
+    <script src="js/profil.js"></script>
+    <script src="js/burger.js"></script>
 </body>
 </html>

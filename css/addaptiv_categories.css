@@ -1,12 +1,80 @@
 
-@media screen and (max-width:750px) 
+@media screen and (max-width:1062px) 
 {
     .new-img-1
+    {
+    width: 24.6vw;
+    }
+    .text1
+    {
+       
+        width: 80%;
+    }
+    .text-new-1, .text-new-5
+    {
+        font-size: 2vw;
+    }
+    .new-1, .new-5
+    {
+        
+        width: 31.7%;
+    }
+    .new-3
+    {
+        width: 65%;
+    }
+    .new-img-1
+    {
+    width: 24.6vw;
+    }
+    .text-new-3
+    {
+        font-size: 2vw;
+    }
+    .button-1
+    {
+        font-size: 2vw;
+    }
+}
+@media (max-width: 1188px) 
+{
+
+   
+    .block2
+    {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    select
+    {
+    padding: 1% 0 1% 0;
+    width: 30vw;
+    
+    }
+}
+
+@media (max-width: 779px) 
+{
+    .film
     {
     width: 30vw;
     }
     .block3
     {
+        justify-content: center;
         width: 100%; 
+    }
+    .block2
+    {
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    select
+    {
+    padding: 1% 0 1% 0;
+    width: 90%;
+    margin: 1%;
     }
 }

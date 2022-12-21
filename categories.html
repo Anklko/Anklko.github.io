@@ -3,65 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/categories.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/addaptiv_categories.css">
-    <link rel="shortcut icon" href="Site.png" type="image/png">
+    <link rel="stylesheet" href="css/addaptiv.css">
+    <link rel="shortcut icon" href="img/Site.png" type="image/png">
     <title>categories</title>
 </head>
 <body>
     <header>
-        <div class="container-1">
-            <img class="logo" src="img/Logo.jpg">
-            <div><a href="categories.html">Категории</a></div>
-            <div><a class="menu2" href="top.html">ТОП-50</a></div>
-            <div><a class="menu3" href="film.html">Случайный</a></div>
-            <div><a class="menu4" href="new.html">Новости</a></div>
-            <input class="search__input" type="text" placeholder="Поиск">
-
-
-            <div><a  class="profil_ikon" href="#" id="profil_ikon"><img class="profil" src="img/profil.png"></a></div>
-
-
-            <div class="open_profil" id="open_profil">
-                <div class="open_profil_container" id="open_profil_container">
-                    <div class="open_profil_body" id="open_profil_body">
-
-
-                        <p>Регистрация</p>
-                        <form>
-                            <div>
-                                Имя<br>
-                                <input type="text" name="name" required="required">
-                            </div>                   
-                            <div>
-                                E-mail<br>
-                                <input type="email" name="email" required="required">
-                            </div>
-                            <div>
-                                Телефон<br>
-                                <input type="tel" name="tel" required="required" placeholder="+375 29 777-77-77" pattern="\+?[0-9\s\-\(\)]+">
-                            </div>
-                            
-                            <div>
-                                Дата рождения<br>
-                                <input type="datetime-local" name="date" required="required">
-                            </div>
-                            <div class="div-button">
-                                <button class="button-2" type="submit" name="submit_btn" value="main_button">Готово</button>
-                            </div>
-                        </form>
-                        <div class="open_profil_close" id="open_profil_close">&#10006</div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-wrap">    
+                    <div class="hamb">
+                        <div class="hamb-field" id="hamb">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                     </div>
+                    <div class="logo">
+                       <a href="index.html"><img src="img/Logo.jpg" alt="Логотип"></a>
+                    </div>
+                    <ul class="menu" id="menu">
+                        
+                        <li><a href="categories.html">Категории</a></li>
+                        <li><a href="top.html">ТОП-50</a></li>
+                        <li><a href="film.html">Случайный</a></li>
+                        <li><a href="new.html">Новости</a></li>
+                        
+                    </ul> 
+                   
+                    <input class="search__input" type="text" placeholder="Поиск">
+                    <div><a  class="profil_ikon" href="#" id="profil_ikon"><img class="profil" src="img/profil.png"></a></div>
+                    <div class="open_profil" id="open_profil">
+            <div class="open_profil_container" id="open_profil_container">
+                <div class="open_profil_body" id="open_profil_body">
+
+
+                    <p>Регистрация</p>
+                    <form>
+                        <div>
+                            Имя<br>
+                            <input type="text" name="name" required="required">
+                        </div>                   
+                        <div>
+                            E-mail<br>
+                            <input type="email" name="email" required="required">
+                        </div>
+                        <div>
+                            Телефон<br>
+                            <input type="tel" name="tel" required="required" placeholder="+375 29 777-77-77" pattern="\+?[0-9\s\-\(\)]+">
+                        </div>
+                        
+                        <div>
+                            Дата рождения<br>
+                            <input type="datetime-local" name="date" required="required">
+                        </div>
+                        <div class="div-button">
+                            <button class="button-2" type="submit" name="submit_btn" value="main_button">Готово</button>
+                        </div>
+                    </form>
+                    <div class="open_profil_close" id="open_profil_close">&#10006</div>
                 </div>
             </div>
-        </div>
-
             </div>
+                </div>
+            </div>
+        </nav>
+        <div class="popupBurger" id="popupBurger"></div>
+
+        
         <div class="line-menu"></div>
     </header>
 
     
     <div class="container-2">
+        <div class="block2">
         <select name="theme" required="required">
             <option value="0">Все жанры</option>
             <option value="1">Биография</option>
@@ -102,6 +119,7 @@
             <option value="6">Фантастика</option>
             <option value="7">Ужасы</option>
         </select>
+    </div>
     </div>
     <div class="container-3">
         <div class="block3">
@@ -252,5 +270,6 @@
      
     </div>
     <script src="js/profil.js"></script>
+    <script src="js/burger.js"></script>
 </body>
 </html>
